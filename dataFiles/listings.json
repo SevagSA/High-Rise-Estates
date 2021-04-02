@@ -1,0 +1,68 @@
+[
+    {
+        "Id": "1",
+        "Name": "Downtown Montreal condo-loft for sale",
+        "City": "Montreal",
+        "Price": "$2,195,000",
+        "Bed": "3",
+        "Bath": "2",
+        "Sqft": "2385",
+        "Area": "Downtown Montreal",
+        "Image": "../assets/dtownCondo.jpg"
+    },
+    {
+        "Id": "2",
+        "Name": "Oversized Loft",
+        "City": "Quebec",
+        "Price": "$1550/month",
+        "Bed": "2",
+        "Bath": "1",
+        "Sqft": "1050",
+        "Area": "Quebec City",
+        "Image": "../assets/loftQCity.jpg"
+    },
+    {
+        "Id": "3",
+        "Name": "Fontainbleau Area",
+        "City": "Montreal",
+        "Price": "$839,000",
+        "Bed": "3",
+        "Bath": "2",
+        "Sqft": "3100",
+        "Area": "Blainville",
+        "Image": "../assets/fontainbleau.jpg"
+    },
+    {
+        "Id": "4",
+        "Name": "New townhouse in Dorval",
+        "City": "Montreal",
+        "Price": "$2950/month",
+        "Bed": "3",
+        "Bath": "2",
+        "Sqft": "1126",
+        "Area": "Dorval",
+        "Image": "../assets/dorval.jpg"
+    },
+    {
+        "Id": "5",
+        "Name": "Cottage with a big pool",
+        "City": "Montreal",
+        "Price": "$5850/month",
+        "Bed": "2",
+        "Bath": "2",
+        "Sqft": "2385",
+        "Area": "Westmount",
+        "Image": "../assets/bigPoolCottage.jpg"
+    },
+    {
+        "Id": "6",
+        "Name": "3-storey home in Laval-sur-le-Lac",
+        "City": "Laval",
+        "Price": "$2,795,000",
+        "Bed": "3",
+        "Bath": "3",
+        "Sqft": "3400",
+        "Area": "Laval-sur-le-Lac",
+        "Image": "../assets/laval-sur-le-lac.jpg"
+    }
+]

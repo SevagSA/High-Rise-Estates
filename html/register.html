@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Regsiter | High Rise Estate</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <p class="logo"><a href="./home.html">High Rise Estates</a></p>
+            <ul class="navLinks">
+                <li class="navLink"><a href="./buying.html">Buying</a></li>
+                <li class="navLink"><a href="./selling.html">Selling</a></li>
+                <li class="navLink"><a href="./search.html">Search</a></li>
+                <li class="navLink"><a href="./comments.html">Testimonials</a></li>
+                <li class="navLink"><a href="./products.html">Products</a></li>
+                <li class="navLink"><a href="./cart.html">Shopping Cart</a></li>
+                <li class="navLink"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="userEntry">
+        <section class="userEntryLeftSection">
+                <hgroup class="userEntryHgroup">
+                    <h1>Welcome to High Rise Estates</h1>
+                    <h3>Register to start browsing luxury properties</h3>
+                </hgroup>
+        </section>
+        <section class="userEntryRightSection">
+            <div class="form">
+                <label for="firstNameRegister">First Name:</label><br>
+                <input type="text" id="firstNameRegister" name="firstName" required>
+                <br>
+                <label for="lastNameRegister">Last Name:</label><br>
+                <input type="text" id="lastNameRegister" name="lastName" required>
+                <br>      
+                <label for="emailRegister">Email:</label><br>
+                <input type="email" id="emailRegister" name="email" required>
+                <br>
+                <label for="passwordRegister">Password</label><br>
+                <input type="password" id="passwordRegister" name="password" required>
+                <br>
+                <label for="validatePassword">Re-Enter Password</label><br>
+                <input type="password" id="validatePassword" name="validatePassword" required>
+                <br>
+                <button onclick="register()" class="goldBtn">Register</button>
+            </div>
+            <p>Have an account? <a href="./index.html">Login here</a></p>
+        </section>
+    </main>
+    <footer>
+        <p class="logo">High Rise Estates | &#169;High Rise Estates - All Rights Reserved</p>
+    </footer>
+
+    <script src="../js/userEntry.js"></script>
+</body>
+</html>

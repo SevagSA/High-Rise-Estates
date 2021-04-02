@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cart | High Rise Estates</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body onload="renderCartItems()">
+    <header>
+        <nav>
+            <p class="logo"><a href="./home.html">High Rise Estates</a></p>
+            <ul class="navLinks">
+                <li class="navLink"><a href="./buying.html">Buying</a></li>
+                <li class="navLink"><a href="./selling.html">Selling</a></li>
+                <li class="navLink"><a href="./search.html">Search</a></li>
+                <li class="navLink"><a href="./comments.html">Testimonials</a></li>
+                <li class="navLink"><a href="./products.html">Products</a></li>
+                <li class="navLink"><a href="./cart.html">Shopping Cart</a></li>
+                <li class="navLink"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="addToCartSection">
+            <h1>Shopping Cart</h1>
+            <table id="cartTableId" class="cartTable">
+                <tr class="tableHeaderRow">
+                    <th>Product Details</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </table>
+            <button onclick="checkout()" class="goldBtn fixedWidth">Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <p class="logo">High Rise Estates | &#169;High Rise Estates - All Rights Reserved</p>
+    </footer>
+    
+    <script src="../js/token.js"></script>
+    <script src="../js/products.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search | High Rise Estates</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <p class="logo"><a href="./home.html">High Rise Estates</a></p>
+            <ul class="navLinks">
+                <li class="navLink"><a href="./buying.html">Buying</a></li>
+                <li class="navLink"><a href="./selling.html">Selling</a></li>
+                <li class="navLink"><a href="./search.html">Search</a></li>
+                <li class="navLink"><a href="./comments.html">Testimonials</a></li>
+                <li class="navLink"><a href="./products.html">Products</a></li>
+                <li class="navLink"><a href="./cart.html">Shopping Cart</a></li>
+                <li class="navLink"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="midSizedSection search">
+            <h1>Search for a location</h1>
+            <input onkeyup="getSearchResults()" autofocus type="text" id="searchQuery" placeholder="Search by location name, ex: Westmount">
+        </section>
+
+        <section id="searchResultsSection" class="flexColumnCenter">
+            <p id="searchSomethingP">Search for a location to see properties...</p>
+            <div class="listingsGrid" id="searchResults">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="logo">High Rise Estates | &#169;High Rise Estates - All Rights Reserved</p>
+    </footer>
+    
+    <script src="../js/token.js"></script>
+    <script src="../js/listings.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login | High Rise Estates</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <p class="logo"><a href="./home.html">High Rise Estates</a></p>
+            <ul class="navLinks">
+                <li class="navLink"><a href="./buying.html">Buying</a></li>
+                <li class="navLink"><a href="./selling.html">Selling</a></li>
+                <li class="navLink"><a href="./search.html">Search</a></li>
+                <li class="navLink"><a href="./comments.html">Testimonials</a></li>
+                <li class="navLink"><a href="./products.html">Products</a></li>
+                <li class="navLink"><a href="./cart.html">Shopping Cart</a></li>
+                <li class="navLink"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="userEntry">
+        <section class="userEntryLeftSection">
+            <hgroup class="userEntryHgroup">
+                <h1>Welcome back to High Rise Estates</h1>
+                <h3>Login to continue browsing luxury properties</h3>
+            </hgroup>
+        </section>
+        <section class="userEntryRightSection">
+            <div class="form">
+                <label for="usernameLogin">Username:</label><br>
+                <input type="text" id="usernameLogin" name="username" required>
+                <br>
+                <label for="passwordLogin">Password:</label>
+                <br>
+                <input type="password" id="passwordLogin" name="password" required>
+                <br>
+                <button onclick="login()" class="goldBtn">Login</button>
+            </div>
+            <p>Don't have an account? <a href="./register.html">Register here</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p class="logo">High Rise Estates | &#169;High Rise Estates - All Rights Reserved</p>
+    </footer>
+    
+    <script src="../js/userEntry.js"></script>
+</body>
+</html>

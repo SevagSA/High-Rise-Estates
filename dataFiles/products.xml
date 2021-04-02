@@ -1,0 +1,44 @@
+<books>
+    <book>
+        <id>1</id>
+        <title>Real Estate Vocabulary Book</title>
+        <price>12.00</price>
+        <description>Do you find yourself unable to properly communicate with others when it comes to talking about real estate? Do you find yourself searching for the proper words to describe a real estate term? This book covers all of the most used and useful real estate terms there is. The book also contains real life examples in the form of senteces that displays how the words can be used. Get your copy today for just $12.99.</description>
+        <image>../assets/vocabularyBook.svg</image>
+    </book>
+    <book>
+        <id>2</id>
+        <title>How to invest in emerging markets</title>
+        <price>13.00</price>
+        <description>Whenever we sense that a certain area is going to be a hot spot for real estate in a couple of years, or we hear experts talk about the potential of certain areas, we want to take advantage of the oppurtunity. But how? When it comes to actually investing in emergin areas, most are confuse as to what steps to take. This book cover all the required and recommended actions to take in order to capitalize on the growth of emerging markets.</description>
+        <image>../assets/investBook.svg</image>
+    </book>
+    <book>
+        <id>3</id>
+        <title>Selling your property for the price you want</title>
+        <price>17.00</price>
+        <description>All property owners who plan to one day sell their estate will encounter this common problem; How will I find a buyer willing to purchase my estate for my desired price? A hard question that needs to be answered with profesionalism and experience. After readin this book, you will be knowledged with the necessary skills in order to reach your objective of selling your property at your desired price.</description>
+        <image>../assets/sellingBook.svg</image>
+    </book>
+    <book>
+        <id>4</id>
+        <title>How to get into luxury real estate</title>
+        <price>34.00</price>
+        <description>Ever wanted to be a part of the luxury real estate domain? You've heard how glamourous and profitable in can be. You've seen the videos and the interviews, and now you've decided you want to have this lifestlye. The road is not easy, however in this book you will find a roadmap outlining the exact steps we recommend you take in order to establish yourself as a luxury real estate agent in your area.</description>
+        <image>../assets/getIntoBook.svg</image>
+    </book>
+    <book>
+        <id>5</id>
+        <title>Getting started in real estate in your 20s</title>
+        <price>24.00</price>
+        <description>Now more than ever, a lot of young people are interested in real estate and want to get their hands on profitable properties. In this book, you will learn how to get started in real estate with a relativelu small budget. Follow a step- by-step guide showing you what to do at every step of the way.</description>
+        <image>../assets/luxuryEstateBook.svg</image>
+    </book>
+    <book>
+        <id>6</id>
+        <title>How to scale your real estate firm </title>
+        <price>15.00</price>
+        <description>DAll business owners will one day face the problem of plateauing at a certain level in their business. High Rise Estates, a succesful, multi-million real estate firm, will show business owners exactly how to surpass their bottleneck in order to scale and grow their practice.</description>
+        <image>../assets/scaleBook.svg</image>
+    </book>
+</books>

@@ -1,0 +1,379 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+body, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navLink > a {
+    color: white;
+    text-decoration: none;
+}
+
+.navLink > a:hover {
+    text-decoration: underline;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+nav {
+    background-color:#0A3261;
+    color:#fff;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+nav > .logo > a{
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    background-color: #0A3261;
+    color: white;
+    height: 10vh;
+}
+
+.hero, .homeBuySellSection {
+    height: 90vh;
+}
+
+.hero, .midSizedSection{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.home {
+    background: linear-gradient(#ffffff00, #000000ba), url("../assets/hero.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.homeAboutBannerSection {
+    height: 40vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.homeAboutBannerSection > p {
+    text-align: center;
+    width: 80%;
+}
+
+.goldBtn {
+    background-color: #B59C5F;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.goldBtn:hover {
+    background-color: #837145;
+}
+
+.homeBuySellSection {
+    display: flex;
+}
+
+.homeBuyDiv, .homeSellDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.homeBuyDiv {
+    background: linear-gradient(#ffffff00, #000000ba), url("../assets/buyHome.jpg") no-repeat;
+    background-size: cover;
+}
+
+.homeSellDiv {
+    background: linear-gradient(#ffffff00, #000000ba), url("../assets/sellHome.jpg") no-repeat;
+    background-size: cover;
+}
+
+.bigCardContainer {
+    background-color: #0A3261;
+    padding: 50px;
+    width: 70%;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.userEntry {
+    height: 81vh;
+    display: flex;
+}
+
+.userEntryLeftSection, .userEntryRightSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userEntryLeftSection {
+    background-color:#0A3261;
+    color: white;
+    background: linear-gradient(#00000059, #000000), url("../assets/userEntry.jpg") no-repeat;
+    background-size: cover;
+}
+
+.userEntryRightSection {
+    flex-direction: column;
+}
+
+.form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form > input, label {
+    margin-top: -10px;
+    width: 80%;
+}
+
+.form > input{
+    height: 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.472);
+}
+
+.form > input[type=submit] {
+    height: auto;
+    border: none;
+    font-size: 16px;
+}
+
+.userEntryHgroup {
+    text-align: center;
+}
+
+.buying {
+    background: linear-gradient(#ffffff00, #000000ba), url("../assets/buy.png") no-repeat fixed;
+    background-size: cover;
+}
+
+.flexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.listingsGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 30px;
+}
+
+.listingCard {
+    background-color: #B59C5F;
+    color: #fff;
+    overflow: hidden;
+}
+
+.listingCard > figcaption {
+    padding: 10px;
+}
+
+.listingCardImg {
+    width: 100%;
+    height: 350px;
+}
+
+.sell {
+    background: linear-gradient(#ffffff00, #000000ba), url("../assets/sell.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.sellWithUsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px 50px 50px;
+}
+
+.cardHolder {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 80px;
+    margin-top: 30px;
+}
+
+.articleShadowCard {
+    width: 345px;
+    background-color: white;
+    margin: 0px 50px;
+    box-shadow: 2px -5px 50px rgba(0, 0, 0, 0.253);
+    padding: 20px;
+}
+
+.articleShadowCard:hover {
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.articleShadowCard img {
+    width: 70px;
+}
+
+.midSizedSection {
+    height: 80vh;
+}
+
+.midSizedSection > a {
+    font-size: 20px;
+}
+
+.sellContactPrompt {
+    background: linear-gradient(#ffffff00, #000000ba), url("../assets/sellCTA.png") no-repeat fixed;
+    background-size: cover;
+}
+
+.search { 
+    background: linear-gradient(#ffffff00, #000000ba), url("../assets/search.jpg") no-repeat fixed;
+    background-size: cover;
+}
+#searchQuery {
+    margin-top: 30px;
+    padding:9px;
+    width:440px;
+}
+
+.testimonials {
+    background: linear-gradient(#ffffff00, #000000ba), url("../assets/testimonial.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.testimonialsList {
+    padding: 0px 200px;
+}
+
+.testimonialsCard {
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.testimonialTitle {
+    margin-bottom: -16px;
+    color: #0A3261;
+    text-decoration: underline;
+}
+
+.testimonialDate {
+    font-size: 14px;
+}
+
+.testimonialsCard > figure {
+    text-align: center;
+}
+
+.products {
+    background: linear-gradient(#ffffff00, #000000ba), url("../assets/products.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.product {
+    position: relative;
+}
+
+.product {
+    height:400px;
+}
+
+.addToCartBtn {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
+}
+
+.addToCartSection {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 50px 300px;
+}
+
+.cartTable {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    text-align: left;
+}
+
+.tableHeaderRow {
+    background-color: rgb(214, 214, 214);
+}
+
+.fixedWidth {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cartTable figure > img {
+    width: 100px;
+}
+
+.contact {
+    background: linear-gradient(#ffffff00, #000000ba), url("../assets/contact.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.contactInfoSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.contactInfoSection > form {
+    width: 50%;
+}
+
+.removeFromCart {
+    cursor: pointer;
+}
+
+.removeFromCart:hover {
+    text-decoration: underline;
+    color: #0A3261;
+}
